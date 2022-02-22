@@ -145,7 +145,7 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/dist" + "/" + "1645535531";
+const STATIC_ASSETS_BASE = "/_nuxt/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/dist" + "/" + "1645537557";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/dist/server/server.mjs'));

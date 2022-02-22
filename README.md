@@ -27,3 +27,15 @@ yarn build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+
+```
+安装
+npx nuxi init xxx
+
+创建页面 index detail并跳转
+pages/index
+pages/detail
+
+<NuxtPage>
+<NuxtLink>
+```

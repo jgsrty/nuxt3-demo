@@ -95,10 +95,17 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs ($id_cbe5172d)
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
+// - /node_modules/nuxt3/dist/pages/runtime/utils.mjs ($id_e1b210cc)
+// - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/layouts.mjs ($id_1b1576e2)
+// - /pages/detail.vue?macro=true ($id_ffdb464f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/detail.vue ($id_246f54e5)
+// - /pages/index.vue ($id_cca58e97)
 // - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/components.mjs ($id_bc61f613)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
-// - /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue ($id_ab1702f3)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -120,7 +127,8 @@ const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /node_modules/nuxt3/dist/app/plugins/preload.server.mjs ($id_b9f3c557)
 // - /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs ($id_cbe5172d)
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
+// - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/nuxt.mjs ($id_bf77ef36)
@@ -149,7 +157,6 @@ Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, config
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/nuxt3/dist/app/compat/legacy-app.mjs ($id_75047751)
 // - /node_modules/nuxt3/dist/app/composables/component.mjs ($id_b47c3881)
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/hookable/dist/index.mjs ($id_a2c811c4)
@@ -544,6 +551,9 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Request: /node_modules/vue-router/dist/vue-router.cjs.js
 // Parents: 
 // - /node_modules/nuxt3/dist/app/composables/component.mjs ($id_b47c3881)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
+// - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 
 // --------------------
@@ -856,7 +866,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Request: /node_modules/h3/dist/index.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/composables/cookie.mjs ($id_792d64c4)
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 
 // --------------------
@@ -1030,7 +1040,7 @@ const $id_f3c61a86 = async function (global, __vite_ssr_exports__, __vite_ssr_im
 // - /node_modules/nuxt3/dist/app/plugins/preload.server.mjs ($id_b9f3c557)
 // - /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs ($id_cbe5172d)
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
 // - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/components.mjs ($id_bc61f613)
 // --------------------
@@ -1041,7 +1051,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/plugin.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/router.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/router.mjs");
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
@@ -1802,129 +1812,88 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 
 
 // --------------------
-// Request: /node_modules/nuxt3/dist/app/plugins/router.mjs
+// Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
 // - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/plugins/server.mjs ($id_eafdb4f7)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/ufo/dist/index.mjs ($id_614de060)
+// - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
 // - /node_modules/h3/dist/index.mjs ($id_57d7ded6)
+// - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
+// - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /node_modules/nuxt3/dist/app/nuxt.mjs ($id_bf77ef36)
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs ($id_1e67b237)
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/middleware.mjs ($id_fe454eb0)
 // --------------------
-const $id_37de8879 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-router/dist/vue-router.cjs.js");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/h3/dist/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/page.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/nuxt.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/layout.mjs");
 
-function getRouteFromPath(fullPath) {
-  const url = __vite_ssr_import_1__.parseURL(fullPath.toString());
-  return {
-    path: url.pathname,
-    fullPath,
-    query: __vite_ssr_import_1__.parseQuery(url.search),
-    hash: url.hash,
-    params: {},
-    name: void 0,
-    matched: [],
-    redirectedFrom: void 0,
-    meta: {}
-  };
-}
-__vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
-  const routes = [];
-  const hooks = {
-    "navigate:before": [],
-    "resolve:before": [],
-    "navigate:after": [],
-    error: []
-  };
-  const registerHook = (hook, guard) => {
-    hooks[hook].push(guard);
-    return () => hooks[hook].splice(hooks[hook].indexOf(guard), 1);
-  };
-  const route = __vite_ssr_import_0__.reactive(getRouteFromPath(false ? window.location.href : nuxtApp.ssrContext.url));
-  async function handleNavigation(url, replace) {
-    if (true && !hooks.error.length) {
-      console.warn("No error handlers registered to handle middleware errors. You can register an error handler with `router.onError()`");
-    }
-    try {
-      const to = getRouteFromPath(url);
-      for (const middleware of hooks["navigate:before"]) {
-        const result = await middleware(to, route);
-        if (result === false || result instanceof Error) {
-          return;
-        }
-        if (result) {
-          return handleNavigation(result, true);
-        }
-      }
-      for (const handler of hooks["resolve:before"]) {
-        await handler(to, route);
-      }
-      Object.assign(route, to);
-      if (false) {
-        window.history[replace ? "replaceState" : "pushState"]({}, "", url);
-      }
-      for (const middleware of hooks["navigate:after"]) {
-        await middleware(to, route);
-      }
-    } catch (err) {
-      for (const handler of hooks.error) {
-        await handler(err);
-      }
-    }
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/middleware.mjs");
+
+__vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.component("NuxtPage", __vite_ssr_import_3__.default);
+  nuxtApp.vueApp.component("NuxtLayout", __vite_ssr_import_4__.default);
+  nuxtApp.vueApp.component("NuxtLink", __vite_ssr_import_1__.RouterLink);
+  nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_3__.default);
+  nuxtApp.vueApp.component("NuxtChild", __vite_ssr_import_3__.default);
+  const { baseURL } = __vite_ssr_import_5__.useRuntimeConfig().app;
+  const routerHistory = false ? __vite_ssr_import_1__.createWebHistory(baseURL) : __vite_ssr_import_1__.createMemoryHistory(baseURL);
+  const router = __vite_ssr_import_1__.createRouter({
+    history: routerHistory,
+    routes: __vite_ssr_import_6__.default
+  });
+  nuxtApp.vueApp.use(router);
+  const previousRoute = __vite_ssr_import_0__.shallowRef(router.currentRoute.value);
+  router.afterEach((_to, from) => {
+    previousRoute.value = from;
+  });
+  Object.defineProperty(nuxtApp.vueApp.config.globalProperties, "previousRoute", {
+    get: () => previousRoute.value
+  });
+  const route = {};
+  for (const key in router.currentRoute.value) {
+    route[key] = __vite_ssr_import_0__.computed(() => router.currentRoute.value[key]);
   }
-  const router = {
-    currentRoute: route,
-    isReady: () => Promise.resolve(),
-    options: {},
-    install: () => Promise.resolve(),
-    push: (url) => handleNavigation(url, false),
-    replace: (url) => handleNavigation(url, true),
-    back: () => window.history.go(-1),
-    go: (delta) => window.history.go(delta),
-    forward: () => window.history.go(1),
-    beforeResolve: (guard) => registerHook("resolve:before", guard),
-    beforeEach: (guard) => registerHook("navigate:before", guard),
-    afterEach: (guard) => registerHook("navigate:after", guard),
-    onError: (handler) => registerHook("error", handler),
-    resolve: getRouteFromPath,
-    addRoute: (parentName, route2) => {
-      routes.push(route2);
-    },
-    getRoutes: () => routes,
-    hasRoute: (name) => routes.some((route2) => route2.name === name),
-    removeRoute: (name) => {
-      const index = routes.findIndex((route2) => route2.name === name);
-      if (index !== -1) {
-        routes.splice(index, 1);
-      }
-    }
-  };
-  if (false) {
-    window.addEventListener("popstate", (event) => {
-      const location = event.target.location;
-      router.replace(location.href.replace(location.origin, ""));
-    });
-  }
-  nuxtApp._route = route;
+  nuxtApp._route = __vite_ssr_import_0__.reactive(route);
   nuxtApp._middleware = nuxtApp._middleware || {
     global: [],
     named: {}
   };
   router.beforeEach(async (to, from) => {
-    to.meta = __vite_ssr_import_0__.reactive(to.meta || {});
+    to.meta = __vite_ssr_import_0__.reactive(to.meta);
     nuxtApp._processingMiddleware = true;
-    const middlewareEntries = new Set(nuxtApp._middleware.global);
-    for (const middleware of middlewareEntries) {
-      const result = await __vite_ssr_import_4__.callWithNuxt(nuxtApp, middleware, [to, from]);
+    const middlewareEntries = new Set([...__vite_ssr_import_7__.globalMiddleware, ...nuxtApp._middleware.global]);
+    for (const component of to.matched) {
+      const componentMiddleware = component.meta.middleware;
+      if (!componentMiddleware) {
+        continue;
+      }
+      if (Array.isArray(componentMiddleware)) {
+        for (const entry of componentMiddleware) {
+          middlewareEntries.add(entry);
+        }
+      } else {
+        middlewareEntries.add(componentMiddleware);
+      }
+    }
+    for (const entry of middlewareEntries) {
+      const middleware = typeof entry === "string" ? nuxtApp._middleware.named[entry] || await __vite_ssr_import_7__.namedMiddleware[entry]?.().then((r) => r.default || r) : entry;
+      if (true && !middleware) {
+        console.warn(`Unknown middleware: ${entry}. Valid options are ${Object.keys(__vite_ssr_import_7__.namedMiddleware).join(", ")}.`);
+      }
+      const result = await __vite_ssr_import_5__.callWithNuxt(nuxtApp, middleware, [to, from]);
       if (true) {
         if (result === false || result instanceof Error) {
           const error = result || __vite_ssr_import_2__.createError({
@@ -1942,43 +1911,471 @@ __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) 
   router.afterEach(() => {
     delete nuxtApp._processingMiddleware;
   });
-  nuxtApp.vueApp.component("NuxtLink", {
-    functional: true,
-    props: { to: String },
-    setup: (props, { slots }) => () => __vite_ssr_import_0__.h("a", { href: props.to, onClick: (e) => {
-      e.preventDefault();
-      router.push(props.to);
-    } }, slots)
-  });
-  if (true) {
-    nuxtApp.hooks.hookOnce("app:created", async () => {
-      await router.push(nuxtApp.ssrContext.url);
-      if (route.fullPath !== nuxtApp.ssrContext.url) {
-        nuxtApp.ssrContext.res.setHeader("Location", route.fullPath);
-        nuxtApp.ssrContext.res.statusCode = 301;
-        nuxtApp.ssrContext.res.end();
-      }
-    });
-  }
-  return {
-    provide: {
-      route,
-      router
+  nuxtApp.hook("app:created", async () => {
+    if (true) {
+      router.push(nuxtApp.ssrContext.url);
+      router.afterEach((to) => {
+        if (to.fullPath !== nuxtApp.ssrContext.url) {
+          nuxtApp.ssrContext.res.setHeader("Location", to.fullPath);
+          nuxtApp.ssrContext.res.statusCode = 301;
+          nuxtApp.ssrContext.res.end();
+        }
+      });
     }
-  };
+    try {
+      await router.isReady();
+      const is404 = router.currentRoute.value.matched.length === 0;
+      if (true && is404) {
+        throw __vite_ssr_import_2__.createError({
+          statusCode: 404,
+          statusMessage: `Page not found: ${nuxtApp.ssrContext.url}`
+        });
+      }
+    } catch (error) {
+      nuxtApp.ssrContext.error = error;
+    }
+  });
+  return { provide: { router } };
 });
 ;
 }
 
 
 // --------------------
-// Request: /node_modules/ufo/dist/index.mjs
+// Request: /node_modules/nuxt3/dist/pages/runtime/page.mjs
 // Parents: 
-// - /node_modules/nuxt3/dist/app/plugins/router.mjs ($id_37de8879)
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
+// - /node_modules/nuxt3/dist/pages/runtime/utils.mjs ($id_e1b210cc)
+// - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
+// --------------------
+const $id_485c89bf = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-router/dist/vue-router.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/utils.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
+
+__vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
+  name: "NuxtPage",
+  props: {
+    pageKey: {
+      type: [Function, String],
+      default: null
+    }
+  },
+  setup(props) {
+    const nuxtApp = __vite_ssr_import_3__.useNuxtApp();
+    return () => {
+      return __vite_ssr_import_0__.h(__vite_ssr_import_1__.RouterView, {}, {
+        default: (routeProps) => routeProps.Component && __vite_ssr_import_2__.wrapIf(__vite_ssr_import_0__.Transition, routeProps.route.meta.pageTransition ?? defaultPageTransition, __vite_ssr_import_2__.wrapInKeepAlive(routeProps.route.meta.keepalive, __vite_ssr_import_0__.h(__vite_ssr_import_0__.Suspense, {
+          onPending: () => nuxtApp.callHook("page:start", routeProps.Component),
+          onResolve: () => nuxtApp.callHook("page:finish", routeProps.Component)
+        }, { default: () => __vite_ssr_import_0__.h(routeProps.Component, { key: __vite_ssr_import_2__.generateRouteKey(props.pageKey, routeProps) }) }))).default()
+      });
+    };
+  }
+});
+const defaultPageTransition = { name: "page", mode: "out-in" };
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt3/dist/pages/runtime/utils.mjs
+// Parents: 
+// - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
+// - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_e1b210cc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const interpolatePath = (route, match) => {
+  return match.path.replace(/(:\w+)\([^)]+\)/g, "$1").replace(/(:\w+)[?+*]/g, "$1").replace(/:\w+/g, (r) => route.params[r.slice(1)]?.toString() || "");
+};
+const generateRouteKey = (override, routeProps) => {
+  const matchedRoute = routeProps.route.matched.find((m) => m.components.default === routeProps.Component.type);
+  const source = override ?? matchedRoute?.meta.key ?? interpolatePath(routeProps.route, matchedRoute);
+  return typeof source === "function" ? source(routeProps.route) : source;
+};
+Object.defineProperty(__vite_ssr_exports__, "generateRouteKey", { enumerable: true, configurable: true, get(){ return generateRouteKey }});
+const Fragment = {
+  setup(_props, { slots }) {
+    return () => slots.default();
+  }
+};
+const wrapIf = (component, props, slots) => {
+  return { default: () => props ? __vite_ssr_import_0__.h(component, props === true ? {} : props, slots) : __vite_ssr_import_0__.h(Fragment, {}, slots) };
+};
+Object.defineProperty(__vite_ssr_exports__, "wrapIf", { enumerable: true, configurable: true, get(){ return wrapIf }});
+const wrapInKeepAlive = (props, children) => {
+  return { default: () => false && props ? __vite_ssr_import_0__.h(__vite_ssr_import_0__.KeepAlive, props === true ? {} : props, children) : children };
+};
+Object.defineProperty(__vite_ssr_exports__, "wrapInKeepAlive", { enumerable: true, configurable: true, get(){ return wrapInKeepAlive }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt3/dist/pages/runtime/layout.mjs
+// Parents: 
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
+// - /node_modules/nuxt3/dist/pages/runtime/utils.mjs ($id_e1b210cc)
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/layouts.mjs ($id_1b1576e2)
+// --------------------
+const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-router/dist/vue-router.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/utils.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/layouts.mjs");
+
+const defaultLayoutTransition = { name: "layout", mode: "out-in" };
+__vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
+  props: {
+    name: {
+      type: [String, Boolean, Object],
+      default: null
+    }
+  },
+  setup(props, context) {
+    const route = __vite_ssr_import_1__.useRoute();
+    return () => {
+      const layout = (__vite_ssr_import_0__.isRef(props.name) ? props.name.value : props.name) ?? route.meta.layout ?? "default";
+      const hasLayout = layout && layout in __vite_ssr_import_3__.default;
+      if (true && layout && !hasLayout && layout !== "default") {
+        console.warn(`Invalid layout \`${layout}\` selected.`);
+      }
+      return __vite_ssr_import_2__.wrapIf(__vite_ssr_import_0__.Transition, hasLayout && (route.meta.layoutTransition ?? defaultLayoutTransition), __vite_ssr_import_2__.wrapIf(__vite_ssr_import_3__.default[layout], hasLayout, context.slots)).default();
+    };
+  }
+});
+;
+}
+
+
+// --------------------
+// Request: /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/layouts.mjs
+// Parents: 
+// - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_1b1576e2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+__vite_ssr_exports__.default = {};
+}
+
+
+// --------------------
+// Request: /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs
+// Parents: 
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// Dependencies: 
+// - /pages/detail.vue?macro=true ($id_ffdb464f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/detail.vue ($id_246f54e5)
+// - /pages/index.vue ($id_cca58e97)
+// --------------------
+const $id_1e67b237 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/detail.vue?macro=true");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+
+__vite_ssr_exports__.default = [
+  {
+    name: "detail",
+    path: "/detail",
+    file: "/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/detail.vue",
+    children: [],
+    meta: __vite_ssr_import_0__.meta,
+    component: () => __vite_ssr_dynamic_import__('/pages/detail.vue')
+  },
+  {
+    name: "index",
+    path: "/",
+    file: "/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/index.vue",
+    children: [],
+    meta: __vite_ssr_import_1__.meta,
+    component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  }
+];
+}
+
+
+// --------------------
+// Request: /pages/detail.vue?macro=true
+// Parents: 
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs ($id_1e67b237)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_ffdb464f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __vite_ssr_import_1__.resolveComponent("NuxtLink")
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}><div>detail</div>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`index`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("index")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/detail.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/detail.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /node_modules/vue/server-renderer/index.js
+// Parents: 
+// - /pages/detail.vue?macro=true ($id_ffdb464f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/detail.vue ($id_246f54e5)
+// - /pages/index.vue ($id_cca58e97)
+// - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
+// - /app.vue ($id_2b46e842)
 // Dependencies: 
 
 // --------------------
-const $id_614de060 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/ufo/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/ufo/dist/index.mjs\".") })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/vue/server-renderer/index.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/vue/server-renderer/index.js\".") })
+
+
+// --------------------
+// Request: /@id/plugin-vue:export-helper
+// Parents: 
+// - /pages/detail.vue?macro=true ($id_ffdb464f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/detail.vue ($id_246f54e5)
+// - /pages/index.vue ($id_cca58e97)
+// - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_bbb863c1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+__vite_ssr_exports__.default = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+}
+;
+}
+
+
+// --------------------
+// Request: /pages/index.vue?macro=true
+// Parents: 
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs ($id_1e67b237)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_5dd70240 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __vite_ssr_import_1__.resolveComponent("NuxtLink")
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}><div>index page</div>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/detail" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`detail`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("detail")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/index.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/detail.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs ($id_1e67b237)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_246f54e5 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __vite_ssr_import_1__.resolveComponent("NuxtLink")
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}><div>detail</div>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`index`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("index")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/detail.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/detail.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs ($id_1e67b237)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cca58e97 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __vite_ssr_import_1__.resolveComponent("NuxtLink")
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}><div>index page</div>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/detail" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`detail`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("detail")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/middleware.mjs
+// Parents: 
+// - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
+// Dependencies: 
+
+// --------------------
+const $id_fe454eb0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const globalMiddleware = []
+Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
+const namedMiddleware = {}
+Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: true, configurable: true, get(){ return namedMiddleware }});;
+}
 
 
 // --------------------
@@ -2109,40 +2506,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 
 
 // --------------------
-// Request: /node_modules/vue/server-renderer/index.js
-// Parents: 
-// - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
-// - /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue ($id_ab1702f3)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/vue/server-renderer/index.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/vue/server-renderer/index.js\".") })
-
-
-// --------------------
-// Request: /@id/plugin-vue:export-helper
-// Parents: 
-// - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
-// - /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue ($id_ab1702f3)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_bbb863c1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-__vite_ssr_exports__.default = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-}
-;
-}
-
-
-// --------------------
 // Request: /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
@@ -2161,73 +2524,23 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // Parents: 
 // - /@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/app-component.mjs ($id_f81f71a5)
 // Dependencies: 
-// - /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue ($id_ab1702f3)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_2b46e842 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-welcome.vue");
-
 const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtWelcome = __vite_ssr_import_0__.default
-
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtWelcome, null, null, _parent))
-  _push(`</div>`)
-}
-
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("app.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/app.vue"]]);
-}
-
-
-// --------------------
-// Request: /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue
-// Parents: 
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-// - /node_modules/@nuxt/design/dist/index.mjs ($id_0787a664)
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /@id/plugin-vue:export-helper ($id_bbb863c1)
-// --------------------
-const $id_ab1702f3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/design/dist/index.mjs");
-
-const _sfc_main = ({
-  computed: {
-    html: () => __vite_ssr_import_0__.welcome({})
-  }
-})
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><!-- eslint-disable-next-line vue/no-v-html --><div${
-    __vite_ssr_import_1__.ssrRenderAttrs(_attrs)
-  }>${
-    $options.html
-  }</div><!--]-->`)
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtPage = __vite_ssr_import_0__.resolveComponent("NuxtPage")
+
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(_attrs)}><div>test</div>`)
+  _push(__vite_ssr_import_1__.ssrRenderComponent(_component_NuxtPage, null, null, _parent))
+  _push(`</div>`)
 }
 
 
@@ -2236,23 +2549,13 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt3/dist/app/components/nuxt-welcome.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("app.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/nuxt3/dist/app/components/nuxt-welcome.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/app.vue"]]);
 }
-
-
-// --------------------
-// Request: /node_modules/@nuxt/design/dist/index.mjs
-// Parents: 
-// - /node_modules/nuxt3/dist/app/components/nuxt-welcome.vue ($id_ab1702f3)
-// Dependencies: 
-
-// --------------------
-const $id_0787a664 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/@nuxt/design/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/node_modules/@nuxt/design/dist/index.mjs\".") })
 
 
 const __modules__ = {
@@ -2289,19 +2592,26 @@ const __modules__ = {
   "/node_modules/nuxt3/dist/meta/runtime/plugin.mjs": $id_9fd5f35e,
   "/node_modules/nuxt3/dist/meta/runtime/components.mjs": $id_94744df3,
   "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/meta.config.mjs": $id_879a43ac,
-  "/node_modules/nuxt3/dist/app/plugins/router.mjs": $id_37de8879,
-  "/node_modules/ufo/dist/index.mjs": $id_614de060,
+  "/node_modules/nuxt3/dist/pages/runtime/router.mjs": $id_a4d6cb5b,
+  "/node_modules/nuxt3/dist/pages/runtime/page.mjs": $id_485c89bf,
+  "/node_modules/nuxt3/dist/pages/runtime/utils.mjs": $id_e1b210cc,
+  "/node_modules/nuxt3/dist/pages/runtime/layout.mjs": $id_9b68c93f,
+  "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/layouts.mjs": $id_1b1576e2,
+  "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/routes.mjs": $id_1e67b237,
+  "/pages/detail.vue?macro=true": $id_ffdb464f,
+  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
+  "/@id/plugin-vue:export-helper": $id_bbb863c1,
+  "/pages/index.vue?macro=true": $id_5dd70240,
+  "/pages/detail.vue": $id_246f54e5,
+  "/pages/index.vue": $id_cca58e97,
+  "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/middleware.mjs": $id_fe454eb0,
   "/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs": $id_7b587af2,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
   "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/components.mjs": $id_bc61f613,
   "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/root-component.mjs": $id_9239a3fd,
   "/node_modules/nuxt3/dist/app/components/nuxt-root.vue": $id_f8564e04,
-  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
-  "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/@id/__x00__virtual:/Users/rongtianyang/Documents/rty/nuxt/nuxt3-demo/.nuxt/app-component.mjs": $id_f81f71a5,
-  "/app.vue": $id_2b46e842,
-  "/node_modules/nuxt3/dist/app/components/nuxt-welcome.vue": $id_ab1702f3,
-  "/node_modules/@nuxt/design/dist/index.mjs": $id_0787a664
+  "/app.vue": $id_2b46e842
 }
 
 
